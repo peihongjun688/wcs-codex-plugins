@@ -1,0 +1,54 @@
+{
+  "name": "web-console-starter-full",
+  "version": "1.2.1",
+  "description": "多皮肤中后台 Web 系统脚手架（Vue3 + ElementPlus + ECharts + Express + SQLite + H5 移动端），含 4 套桌面皮肤、6 套 H5 皮肤、5 类桌面/H5 双形态页面模板、一键打包发布。",
+  "author": {
+    "name": "jun-ge",
+    "email": "jun-ge@local",
+    "url": ""
+  },
+  "homepage": "",
+  "repository": "",
+  "license": "MIT",
+  "keywords": [
+    "web-console-starter",
+    "wcs",
+    "脚手架",
+    "中后台",
+    "Vue3",
+    "ElementPlus",
+    "ECharts",
+    "Express",
+    "SQLite",
+    "多皮肤",
+    "H5",
+    "移动端",
+    "响应式",
+    "软件著作权"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Web Console Starter · 多皮肤中后台脚手架",
+    "shortDescription": "用 wcs 模板搭建/扩展带多皮肤、桌面/H5 双形态的软件著作权演示系统",
+    "longDescription": "用 web-console-starter 脚手架搭建或扩展一个带多皮肤的中后台 Web 系统（Vue + ElementPlus + ECharts + Express + SQLite）。技能内自带：桌面 4 套皮肤 + 移动端 H5 独立 6 套皮肤（玻璃视觉、底部 TabBar、设置页即时切换）、5 类示范页面模板且全部桌面/H5 双形态（useH5 + v-if，≤768px 自动切 H5 布局）、Express+SQLite 后端底座、换肤/命名/脱敏/打包四件套工程脚本。产出物是能直接跑、可直接改、可一键打包发布的完整可运行工程。适合：软件著作权演示系统、批量产出多套业务系统、需要手机访问/H5/移动端的控制台。",
+    "developerName": "jun-ge",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "Write", "Interactive"],
+    "websiteURL": "",
+    "privacyPolicyURL": "",
+    "termsOfServiceURL": "",
+    "defaultPrompt": [
+      "用 wcs 模板搭建一套带多皮肤的中后台管理系统",
+      "给现有系统换一套皮肤",
+      "做一套软件著作权演示系统，支持手机 H5 访问"
+    ],
+    "brandColor": "#1677FF",
+    "composerIcon": "",
+    "logo": "",
+    "screenshots": [
+      "./skills/web-console-starter-full/assets/screenshots/h5-deep-blue.png",
+      "./skills/web-console-starter-full/assets/screenshots/h5-crud.png",
+      "./skills/web-console-starter-full/assets/screenshots/h5-settings.png"
+    ]
+  }
+}

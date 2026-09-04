@@ -1,0 +1,20 @@
+{
+  "name": "wcs-codex-plugins",
+  "interface": {
+    "displayName": "WCS Codex Plugins"
+  },
+  "plugins": [
+    {
+      "name": "web-console-starter-full",
+      "source": {
+        "source": "local",
+        "path": "./plugins/web-console-starter-full"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
