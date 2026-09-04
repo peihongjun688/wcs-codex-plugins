@@ -10,7 +10,7 @@
   <img alt="files" src="https://img.shields.io/badge/files-88-brightgreen"/>
 </p>
 
-# codex-wcs-plugins · Codex 插件市场
+# wcs-codex-plugins · Codex 插件市场
 
 > 一个能**直接跑、可直接改、可一键打包**的多皮肤中后台脚手架，作为 Codex 插件一键安装。
 
@@ -38,10 +38,10 @@
 
 ```bash
 # 一行添加市场
-codex plugin marketplace add <owner>/codex-wcs-plugins
+codex plugin marketplace add peihongjun688/wcs-codex-plugins
 
 # 查看 / 安装
-codex plugin list                      # 应看到 web-console-starter-full@wcs-plugins
+codex plugin list                      # 应看到 web-console-starter-full@wcs-codex-plugins
 codex plugin add web-console-starter-full
 ```
 
@@ -58,7 +58,7 @@ codex plugin add web-console-starter-full
 ## 目录结构
 
 ```
-codex-wcs-plugins/
+wcs-codex-plugins/
 ├── .agents/plugins/
 │   └── marketplace.json               # 市场目录（注意是 .agents/plugins/ ！）
 └── plugins/
